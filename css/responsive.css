@@ -1,0 +1,345 @@
+@media (min-width: 320px) and (max-width: 575px){
+/*=========navbar=========*/
+    .navbar-light .navbar-toggler{
+        border-color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after{
+        width: 20%;
+    }
+/*========banner_part=======*/
+    #banner_part .overlay .text h1{
+        font-size: 40px;
+    } 
+    #banner_part .overlay .text h2{
+        font-size: 30px;
+    }
+    #banner_part .overlay .text p{
+        width: 245px;
+    }
+/*=========aboutus_part=========*/
+    #aboutus_part{
+        margin-top: 40px;
+    }
+    #aboutus_part .text{
+        width: 320px;
+        margin-top: 0;
+    }
+    #aboutus_part .title h2{
+        text-align: left;
+        font-size: 20px;
+    }
+    #aboutus_part .text p{
+        margin-top: 10px;
+        font-size: 14px;
+        width: 320px;
+        padding-right: 20px;
+    }
+    #aboutus_part .img{
+        width: 300px;
+    }
+/*
+    #aboutus_part .text p{
+        width: 300px;
+    }
+*/
+/*========skill_part==========*/
+    #skill_part{
+        margin-top: 20px;
+    }
+    #skill_part .title{
+        padding: 10px 0;
+    }
+    #skill_part .skill_items{
+        padding: 40px 0;
+    }
+    #skill_part .title h2{
+        text-align: left;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    #skill_part .item_img{
+        width: 320px;
+        padding-right: 20px;
+    }
+    #skill_part .item{
+        width: 300px;
+    }
+    #skill_part .item .barfiller{
+        height: 7px;
+        margin-top: -20px;
+    }
+    #skill_part .item p{
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+/*==========service_part==========*/
+    #service_part{
+        margin-top: 40px;
+    }
+    #service_part .title{
+        padding: 10px 0;
+    }
+    #service_part .title h2{
+        text-align: left;
+        font-size: 20px;
+        
+    }
+    #service_part .item{
+        width: 290px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    #service_part .item h2{
+        padding-left: 5px;
+        font-size: 16px;
+    }
+    #service_part .item p{
+        padding-left: 5px;
+        font-size: 14px;
+        width: 280px;
+    }
+    #service_part .item ul{
+        margin-left: 5px;
+    }
+    #service_part .item ul li i{
+        font-size: 14px;
+    }
+/*========pricing_part=========*/
+    #portfollio_part{
+        margin-top: 40px;
+    }
+    #portfollio_part .title{
+        margin-bottom: 20px;
+    }
+    #portfollio_part .title h2{
+        text-align: left;
+        font-size: 20px;
+    }
+    #portfollio_part ul li{
+        width: 50px;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    #portfollio_part ul li.dev{
+        width: 80px;
+    }
+    #portfollio_part .item_port{
+        width: 320px;
+    }
+    #portfollio_part .work{
+        margin: 5px 10px;
+        height: 100px;
+        width: 260px;
+    }
+/*===========pricing_part============*/
+    #pricing_part{
+        margin-top: 30px;
+    }
+    #pricing_part .title{
+        margin-bottom: 20px;
+    }
+    #pricing_part .title h2{
+        text-align: left;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #pricing_part .items{
+        margin-top: -50px;
+    }
+    #pricing_part .overlay .item{
+        width: 290px;
+    }
+    #pricing_part .overlay .item h2{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    #pricing_part .overlay .item p.round{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+         margin-bottom: 10px;
+    }
+    #pricing_part .overlay .item ul{
+        margin-left: 50%;
+    }
+    #pricing_part .overlay .item ul li{
+        font-size: 14px;
+    }
+    #pricing_part .overlay .item p.pur{
+        padding: 10px 0;
+    }
+    #pricing_part .overlay .item{
+        height: 96%;
+    }
+    #pricing_part .overlay .item:hover{
+        height: 96%;
+    }
+/*=============testi_part==============*/
+    #testi_part{
+        margin-top: -20px;
+    }
+    #testi_part .title{
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+     #testi_part .title h2{
+        text-align: left;
+        font-size: 20px;
+        margin-left: -5px;
+         
+    }
+    #testi_part .testi_jala .item{
+        width: 320px;
+    }
+    #testi_part .testi_jala .item .content{
+         width: 290px;
+    }
+    #testi_part .testi_jala .item .content .size p{
+        font-size: 14px;
+    }
+/*============footer_part===========*/
+    #footer_part{
+        margin-top: 40px;
+    }
+    #footer_part .title{
+    margin-bottom: 30px;
+    }
+    #footer_part .title h2{
+        text-align: left;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #footer_part .footer_item .overlay .content{
+        width: 290px;
+    }
+    #footer_part .footer_item .overlay{
+        padding: 0;
+    }
+    #footer_part .footer_item .overlay .content h2{
+        font-size: 20px;
+    }
+    #footer_part .footer_item .overlay .content p{
+        font-size: 14px;
+    }
+    #footer_part .footer_item .overlay .content p.sp{
+        margin-top: 20px;
+    }
+    #footer_part .footer_item .overlay .content.follow p{
+        font-size: 14px;
+        margin-top: -20px;
+    }
+    #footer_part .footer_item .overlay .content.follow ul{
+        margin-top: -20px;
+    }
+    #footer_part .footer_item .overlay .content.follow ul li{
+        margin-left: 15px;
+    }
+    #footer_part .footer_item .overlay .send{
+        margin-top: 20px;
+    }
+    #footer_part .footer_item .overlay .send h2{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    #portfollio_part ul li{
+        width: 90px;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    #portfollio_part ul li.dev{
+        width: 120px;
+    }
+    #portfollio_part .work{
+        width: 480px;
+    }
+    #footer_part .footer_item .overlay .send button{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #footer_part .footer_item .overlay .content.follow ul{
+        margin-top: 5px;
+    }
+    #footer_part .footer_item .overlay .send button{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    #portfollio_part ul li{
+        width: 130px;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    #footer_part .footer_item{
+        position: relative;
+    }
+    #footer_part .footer_item .overlay .content{
+        width: 50%;
+    }
+    #footer_part .footer_item .overlay .content.follow{
+        position: absolute;
+        top: -320px;
+        right: 0;
+        opacity: 1;
+        
+    }
+    #footer_part .footer_item .overlay .content p{
+        font-size: 14px;
+    }
+    #footer_part .footer_item .overlay .send{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    #aboutus_part .text p{
+        width: 450px;
+        font-size: 14px;
+    }
+    #skill_part .item_img{
+        margin-top: 30px;
+    }
+    #service_part .item h2{
+        font-size: 16px;
+    }
+    #service_part .item p{
+        font-size: 14px;
+        width: 280px;
+    }
+    #portfollio_part ul li{
+        width: 180px;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    #footer_part .footer_item .overlay .content h2{
+        font-size: 20px;
+    }
+    #footer_part .footer_item .overlay .content p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
