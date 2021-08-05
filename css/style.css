@@ -24,34 +24,31 @@ a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #000;
+    font-family: 'Macondo Swash Caps', cursive;
 }
-/*
-html,body{
-    background: rgba(180, 146, 146, 0.47);
-}
-*/
-html,body{
+body{
     overflow-x: hidden;
+    background: none;
 }
 /*===========common css end==============*/
 
 
 /*============menu_bar start============*/
 .navbar-light .navbar-brand{
-    color: #fff;
+    color: #000;
     font-size: 30px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Macondo Swash Caps', cursive;
     font-weight: 700;
 }
 .navbar{
-    background: #485460 !important;
+    background: #fff !important;
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color: #49cbcd;
     transition: .4s;
 }
 .navbar-light .navbar-nav .nav-link{
-    color: #fff;
+    color: #000;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     position: relative;
@@ -142,13 +139,13 @@ html,body{
 }
 #banner_part .overlay .text h2{
     font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Macondo Swash Caps', cursive;
     font-weight: 400;
     color: #000;
 }
 #banner_part .overlay .text p{
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Macondo Swash Caps', cursive;
     font-weight: 400;
     width: 300px;
     color: #000;
@@ -173,7 +170,7 @@ html,body{
     width: 500px;
     color: #000;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Macondo Swash Caps', cursive;
     font-weight: 400;
     margin-top: 50px;
 }
@@ -181,15 +178,32 @@ html,body{
     width: 100%;
     margin-top: 30px;
     text-align: center;
+    background: #f5f5f5;
+    border-top-left-radius: 177px;
+    border-bottom-right-radius: 54px;
+    height: 315px;
+    box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
+-webkit-box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
+-moz-box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
+}
+#aboutus_part .img:hover{
+    margin-left: 20px;
+    transition: .4s;
+    background: #49cbcd;
 }
 #aboutus_part .img img{
     width: 100%;
+    margin-top: -42px;
+    
+    
+
 /*
     width: 400px;
     height: 400px;
     border-radius: 50%;
-*/
+
     border-radius: 20px;
+*/
 }
 
 /*=============aboutus_part end============*/
@@ -201,11 +215,33 @@ html,body{
     width: 100%;
     margin-top: 80px;
     
+    
+}
+#skill_part .skill_new{
+    width: 100%;
+    height: 100%;
+    background: url(../images/skill_bg_new.jpg)no-repeat center;
+    background-size: cover;
+}
+#skill_part .skill_new .overlay{
+     width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.67);
+    
 }
 #skill_part .skill_items{
     width: 100%;
-    background: rgba(72, 84, 96, 0.47);
+/*    background: #fff;*/
     padding: 80px 0;
+}
+#skill_part .skill_items .item p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+/*
+    font-family: 'Macondo Swash Caps', cursive;
+    font-weight: 400;
+*/
+    font-size: 16px;
 }
 #skill_part .title{
     padding: 50px 0;
@@ -214,24 +250,36 @@ html,body{
     width: 100%;
 }
 #skill_part .item_img{
-    width: 100%;
+    width: 90%;
+    background: #f5f5f5;
+   border-radius: 20px;
+    margin-top: 20px;
+    
+   
+}
+
+#skill_part .item_img:hover{
+    background: #49cbcd;
+    transition: .4s;
+    transform: rotate(-10deg);
 }
 #skill_part .item_img img{
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
+    
+    
+
 }
 #skill_part .pro_bar .barfiller{
     border-radius: 3px;
 }
 .barfiller .tip{
-    background: #485460;
+    background: #000;
 }
 .barfiller .tip::after{
-    border-color: #485460 transparent;
+    border-color: #000 transparent;
 }
 #skill_part .barfiller .fill{
-    background: #485460 !important;
+    background: #000 !important;
     border-radius: 3px;
 }
 
@@ -260,14 +308,17 @@ html,body{
 }
 #service_part .item{
     width: 100%;
-    background: rgba(72, 84, 96, 0.48);
+    background: #f5f5f5;
     margin-top: 20px;
     border-radius: 10px;
+    box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
+-webkit-box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
+-moz-box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
 }
 #service_part .item:hover{
     background: #49cbcd;
     transition: .4s;
-    
+    transform: scale(1.1);
 }
 #service_part .item:hover p{
     color: #fff;
@@ -282,14 +333,16 @@ html,body{
     padding-top: 20px;
     padding-left: 30px;
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    
     font-weight: 700;
 }
 #service_part .item p{
     font-size: 16px;
     padding-top: 10px;
     padding-left: 30px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-family: 'Macondo Swash Caps', cursive;
 }
 #service_part .item ul{
     margin-left: 30px;
@@ -300,6 +353,7 @@ html,body{
 #service_part .item ul li i{
     color: gold;
     font-size: 20px;
+     
 }
 #service_part .item ul li i.cu{
     color: #fff;
@@ -322,8 +376,11 @@ html,body{
     width: 200px;
     padding: 10px 0;
     text-align: center;
-    background: rgba(72, 84, 96, 0.51);
+    background: #f5f5f5;
     border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 #portfollio_part ul li:hover{
     background: #49cbcd;
@@ -345,6 +402,42 @@ html,body{
 #portfollio_part .work .img{
     width: 100%;
     height: 100%;
+    position: relative;
+    box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
+-webkit-box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
+-moz-box-shadow: -4px 14px 16px -4px rgba(0,0,0,0.48);
+}
+#portfollio_part .work .img .overlay{
+    width: 0;
+    height: 0;
+    background: rgba(0, 0, 0, 0.67);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    border: 3px solid #49cbcd;
+    transform: translate(-50%,-50%);
+}
+#portfollio_part .work .img .overlay a{
+    margin-top: 25%;
+    margin-left: 45%;
+    color: #fff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background: #49cbcd;
+    border-radius: 50%;
+}
+#portfollio_part .work .img .overlay a i{
+    margin-left: 50%;
+    line-height: 50px;
+    transform: translate(-50%);
+}
+#portfollio_part .work .img:hover .overlay{
+    width: 95%;
+    height: 95%;
+    opacity: 1;
+    transition: .4s;
 }
 #portfollio_part .work .img img{
     width: 100%;
@@ -369,21 +462,23 @@ html,body{
 #pricing_part .overlay{
     width: 100%;
     height: 100%;
-    background: rgba(245, 245, 245, 0.7);
+    background: rgba(255, 255, 255, 0.4);
     margin: 70px 0;
     padding: 50px 0;
 }
 #pricing_part .overlay .item{
     width: 100%;
-    border: 1px solid rgba(72, 84, 96, 0.51);
-/*    background: #f1f1f1;*/
-    height: 97%;
+    border: 1px solid #f5f5f5;
+/*    background: #f5f5f5;*/
+    height: 100%;
     border-radius: 10px;
 }
 #pricing_part .overlay .item:hover{
     border: 1px solid #49cbcd;
     height: 97%;
     border-radius: 10px;
+    transition: .4s;
+    margin-top: -10px;
 }
 
 #pricing_part .overlay .item:hover h2{
@@ -396,22 +491,25 @@ html,body{
 #pricing_part .overlay .item h2{
     text-align: center;
     padding: 20px 0;
-    background: rgba(72, 84, 96, 0.51);
+/*    background: #f5f5f5;*/
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     border-radius: 10px;
     font-size: 40px;
     font-size: 30px;
+    text-transform: uppercase;
+    border: 1px solid #f5f5f5;
 }
 #pricing_part .overlay .item p.round{
     text-align: center;
     width: 150px;
     height: 150px;
-    background: rgba(72, 84, 96, 0.51);
+    background: #f5f5f5;
     border-radius: 50%;
     line-height: 150px;
     margin: auto;
     margin-bottom: 20px;
+    
 }
 #pricing_part .overlay .item:hover p.round{
     background: #49cbcd;;
@@ -420,31 +518,36 @@ html,body{
 #pricing_part .overlay .item p.round span{
     font-size: 50px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 #pricing_part .overlay .item ul{
-    margin-left: 45%;
+    margin-left: 50%;
     transform: translateX(-50%);
 }
 #pricing_part .overlay .item ul li{
     display: block;
     margin: 10px 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Macondo Swash Caps', cursive;
     font-weight: 400;
+/*    color: #f5f5f5;*/
 }
-#pricing_part .overlay .item ul li{
-    
-}
-#pricing_part .overlay .item p.pur{
+#pricing_part .overlay .item a{
+    width: 100%;
     text-align: center;
     padding: 20px 0;
-    background: rgba(72, 84, 96, 0.51);
+/*    background: #f5f5f5;*/
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     border-radius: 10px;
+    border: 1px solid #f5f5f5;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    
+  
 }
-#pricing_part .overlay .item:hover p.pur{
-    background: #49cbcd;;
+#pricing_part .overlay .item:hover a{
+    background: #49cbcd;
     transition: .4s;
 }
 /*===============pricing_part end=============*/
@@ -480,10 +583,13 @@ html,body{
     border-radius: 50%;
 }
 #testi_part .testi_jala .item .content .size{
-    background: #c9c2c2;
+    background: #f5f5f5;
     margin-top: 15px;
     position: relative;
     border-radius: 10px;
+    box-shadow: 2px 9px 4px 0px rgba(0,0,0,0.52);
+-webkit-box-shadow: 2px 9px 4px 0px rgba(0,0,0,0.52);
+-moz-box-shadow: 2px 9px 4px 0px rgba(0,0,0,0.52);
 }
 #testi_part .testi_jala .item .content .size h2{
     font-size: 20px;
@@ -492,12 +598,13 @@ html,body{
     margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
 #testi_part .testi_jala .item .content .size p{
     font-size: 16px;
     text-align: center;
     padding: 20px 40px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Macondo Swash Caps', cursive;
     font-weight: 400;
 }
 #testi_part .testi_jala .item .content .size i{
@@ -507,7 +614,7 @@ html,body{
     opacity: 1;
     transform: rotate(160deg);
     font-size: 30px;
-    color: #c9c2c2;
+    color: #f5f5f5;
 }
 #testi_part .testi_jala .item2 .content{
     width: 98%;
@@ -582,13 +689,13 @@ html,body{
 }
 #footer_part .footer_item{
     width: 100%;
-    background: url(../images/fotter.png)no-repeat center;
+    background: url(../images/fotter.jpg)no-repeat center;
     background-size: cover;
 }
 #footer_part .footer_item .overlay{
     width: 100%;
     height: 100%;
-    background: rgba(201, 194, 194, 0.79);
+    background: rgba(255, 255, 255, 0.46);
     padding: 50px 0;
 }
 #footer_part .footer_item .overlay .content{
@@ -596,7 +703,7 @@ html,body{
 }
 #footer_part .footer_item .overlay .content p{
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Macondo Swash Caps', cursive;
     font-weight: 400;
 }
 
@@ -616,6 +723,7 @@ html,body{
     margin-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
 #footer_part .footer_item .overlay .content.follow ul{
     margin-top: 50px;
@@ -624,12 +732,13 @@ html,body{
 #footer_part .footer_item .overlay .content.follow ul li{
     width: 40px;
     height: 40px;
-    background: rgba(72, 84, 96, 0.51);
+    background: transparent);
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
     font-size: 20px;
     margin-right: 10px;
+    border: 1px solid #f5f5f5;
 }
 #footer_part .footer_item .overlay .content.follow ul{
     margin-left: 5px;
@@ -649,26 +758,38 @@ html,body{
 }
 #footer_part .footer_item .overlay .content .text{
     width: 100%;
-    background: rgba(72, 84, 96, 0.51);
+    background: transparent;
     margin: 10px 0;
     border-radius: 5px;
+    border: 1px solid #f5f5f5;
 }
+
 #footer_part .footer_item .overlay .content .text.big{
     height: 170px;
 }
 #footer_part .footer_item .overlay .send button{
-    background: rgba(72, 84, 96, 0.51);
+    background: transparent;
     padding: 10px 10px;
     border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Macondo Swash Caps', cursive;
     font-weight: 400;
+    border: 1px solid #f5f5f5;
+}
+#footer_part .footer_item .overlay .send button:hover{
+    background: #49cbcd;
+    transition: .4s;
 }
 #footer_part .last{
     width: 100%;
     height: 50px;
-    background: rgba(201, 194, 194, 0.79);
+    background: #f5f5f5;
     text-align: center;
     line-height: 50px;
+}
+#footer_part .last p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
