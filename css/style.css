@@ -41,7 +41,7 @@ body{
     font-weight: 700;
 }
 .navbar{
-    background: #fff !important;
+    background: none!important;
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color: #49cbcd;
@@ -69,8 +69,8 @@ body{
     transition: .4s;
 }
 .navbar .menub{
-    border: 1px solid #fff!important;
-    color: #fff;
+    border: 1px solid #f5f5f5!important;
+    color: #000;
 }
 .navbar .menub:hover{
     background: rgba(0, 255, 255, 0.58);
@@ -450,7 +450,7 @@ body{
 /*===============pricing_part start=============*/
 #pricing_part{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 #pricing_part .items{
     width: 100%;
@@ -774,6 +774,7 @@ body{
     font-family: 'Macondo Swash Caps', cursive;
     font-weight: 400;
     border: 1px solid #f5f5f5;
+    margin-bottom: 10px;
 }
 #footer_part .footer_item .overlay .send button:hover{
     background: #49cbcd;

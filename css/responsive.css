@@ -35,7 +35,9 @@
         padding-right: 20px;
     }
     #aboutus_part .img{
-        width: 300px;
+        width: 280px;
+        height: 143px;
+        border-top-left-radius: 100px;
     }
 /*
     #aboutus_part .text p{
@@ -58,8 +60,9 @@
         font-size: 20px;
     }
     #skill_part .item_img{
-        width: 320px;
+        width: 290px;
         padding-right: 20px;
+        margin-bottom: 20px;
     }
     #skill_part .item{
         width: 300px;
@@ -86,9 +89,9 @@
         
     }
     #service_part .item{
-        width: 290px;
-        margin-top: 10px;
-        margin-right: 20px;
+        width: 280px;
+        margin-top: 20px;
+        margin-left: 5px;
     }
     #service_part .item h2{
         padding-left: 5px;
@@ -120,6 +123,8 @@
         width: 50px;
         font-size: 14px;
         padding: 10px 0;
+        font-weight: 300;
+        text-transform: capitalize;
     }
     #portfollio_part ul li.dev{
         width: 80px;
@@ -128,9 +133,12 @@
         width: 320px;
     }
     #portfollio_part .work{
-        margin: 5px 10px;
-        height: 100px;
+        margin: 10px 15px;
+        height: 150px;
         width: 260px;
+    }
+    #portfollio_part .work .img .overlay a{
+        margin-top: 15%;
     }
 /*===========pricing_part============*/
     #pricing_part{
@@ -149,6 +157,11 @@
     }
     #pricing_part .overlay .item{
         width: 290px;
+        margin-top: 20px;
+        
+    }
+    #pricing_part .overlay .item a{
+        border-bottom: none;
     }
     #pricing_part .overlay .item h2{
         font-size: 20px;
@@ -243,6 +256,56 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
+    #aboutus_part{
+        margin-top: 20px;
+    }
+    #skill_part{
+        margin-top: 20px;
+    }
+    #skill_part .item_img{
+        width: 500px;
+        margin-left: 5px;
+        margin-bottom: 40px;
+    }
+    #service_part{
+        margin-top: 20px;
+    }
+    #service_part .item{
+        width: 480px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    #portfollio_part{
+        margin-top: 80px;
+    }
+    #portfollio_part ul li{
+        text-transform: capitalize;
+    }
+    #portfollio_part .work{
+        height: 250px;
+    }
+    #portfollio_part .work .img .overlay a{
+        margin-top: 20%;
+    }
+    #pricing_part{
+        margin-top: 80px;
+    }
+     #pricing_part .overlay .item{
+        width: 450px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        height: 93%;
+    }
+    #pricing_part .overlay .item a{
+        border-bottom: none;
+    }
+    #testi_part{
+        margin-top: 0;
+    }
+    #footer_part{
+        margin-top: 50px;
+    }
     #portfollio_part ul li{
         width: 90px;
         font-size: 14px;
@@ -260,6 +323,40 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
+    #aboutus_part .img{
+        margin-top: 85px;
+        height: 380px;
+    }
+    #aboutus_part .img img{
+        margin-top: -77px;
+    }
+    #skill_part{
+        margin-top: 20px;
+    }
+     #skill_part .item_img{
+        width: 680px;
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+    #service_part{
+        margin-top: 20px;
+    }
+    #service_part .item{
+        width: 680px;
+        margin-top: 30px;
+        margin-left: 10px;
+        height: 200px;
+    }
+    #pricing_part .overlay .item{
+        width: 680px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        height: 93%;
+    }
+    #pricing_part .overlay .item a{
+        border-bottom: none;
+    }
     #footer_part .footer_item .overlay .content.follow ul{
         margin-top: 5px;
     }
@@ -293,12 +390,21 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
+    #aboutus_part .img{
+        height: 256px;
+    }
     #aboutus_part .text p{
         width: 450px;
         font-size: 14px;
     }
-    #skill_part .item_img{
-        margin-top: 30px;
+    #skill_part{
+        margin-top: 20px;
+    }
+    #skill_part .item .barfiller{
+        margin-bottom: 5px;
+    }
+    #service_part{
+        margin-top: 20px;
     }
     #service_part .item h2{
         font-size: 16px;
@@ -311,6 +417,12 @@
         width: 180px;
         font-size: 14px;
         padding: 10px 0;
+    }
+    #pricing_part{
+        margin-top: 80px;
+    }
+    #testi_part .testi_jala .item .content .img2 img{
+        margin-left: -20px;
     }
     #footer_part .footer_item .overlay .content h2{
         font-size: 20px;
