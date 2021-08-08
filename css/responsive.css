@@ -39,7 +39,7 @@
     }
     .menu_come ul li a{
         width: 150px;
-        margin: 20px 0;
+        margin: 40px 0;
     }
 /*=========aboutus_part=========*/
     #aboutus_part{
@@ -283,7 +283,7 @@
 @media (min-width: 576px) and (max-width: 767px){
     .menu_come ul li a{
         width: 300px;
-        margin: 15px 0;
+        margin: 40px 0;
     }
     .menu_come{
         width: 300px;
@@ -374,7 +374,7 @@
 @media (min-width: 768px) and (max-width: 991px){
     .menu_come ul li a{
         width: 400px;
-        margin: 25px 0;
+        margin: 40px 0;
     }
     .menu_come{
         width: 400px;
@@ -472,7 +472,7 @@
     }
     .menu_come ul li a{
         width: 400px;
-        margin: 35px 0;
+        margin: 40px 0;
     }
     #banner_part .overlay .text{
         margin-top: 40px;
