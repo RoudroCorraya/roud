@@ -30,7 +30,7 @@ $('.testi_jala').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: false
+        dots: false,
       }
     },
     {
@@ -53,3 +53,95 @@ $('.testi_jala').slick({
     // instead of a settings object
   ]
 });
+
+
+
+//================== type js add==============
+
+ var typed = new Typed('.type', {
+  strings: 
+     [
+         'build webside for your business.',
+         'convert your PSD to HTML',
+         'make for you responsive landing page',
+         'fix HTML CSS Bugs',
+     ],
+     loop: true,
+     typeSpeed: 20,
+     backSpeed:20,
+     
+//  smartBackspace: true // Default value
+});
+
+//============menu_popup===============
+
+//$(window).scroll(function(){
+//    var scroling = $(this).scrollTop();
+//    if(scroling > 200){
+//        $('.menu_pop2').addClass('menu_popup');
+//         
+//    }
+//    
+//    if(scroling > 200){
+//        $('.menu_pop2').click(function(){
+//            $('.menu_come').slideDown();
+//            
+//        });
+//        $('.close').click(function(){
+//            $('.menu_come').slideUp();
+//        });
+//    }
+//});
+
+$(window).scroll(function(){
+    var scroling = $(this).scrollTop();
+    if(scroling > 200){
+        console.log('fired')
+        $('.menu_come').addClass('in')
+        
+    }
+    if(scroling<200){
+       $('.menu_come').removeClass('out')
+        $('.menu_come').removeClass('in')
+    }
+    if($('.menu_come').hasClass('out')){
+        $('.menu_come').removeClass('in')
+    }
+    
+    
+});
+$('.close').click(function(){
+        $('.menu_come').removeClass('in')
+        $('.menu_come').addClass('out')
+        
+         
+    });
+
+//===========smooth_scroll===============
+var scroll = new SmoothScroll('a[href*="#"]');
+
+//=============banner_polygonal js==============
+
+$('#banner_part').polygonizr();
+$('#pricing_part').polygonizr();
+
+//=============banner_round js=============
+$('.drim').createWaterBall({
+  targetRange:100
+});
+
+//============light_box js===============
+ lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+
+
+
+
+
+
+
+
+
+

@@ -7,6 +7,22 @@
         width: 20%;
     }
 /*========banner_part=======*/
+    #banner_part .overlay{
+        padding: 200px 0;
+    }
+    #banner_part .drim{
+        left: 4%;
+        top: -20px;
+    }
+    #banner_part .drim2{
+        left: 30px;
+        top: 440%;
+        letter-spacing: 15px;
+        font-size: 16px;
+    }
+    #banner_part .overlay .text{
+        margin-top: -170px;
+    }
     #banner_part .overlay .text h1{
         font-size: 40px;
     } 
@@ -15,6 +31,12 @@
     }
     #banner_part .overlay .text p{
         width: 245px;
+    }
+    .menu_come{
+        width: 150px;
+    }
+    .menu_come ul li a{
+        width: 150px;
     }
 /*=========aboutus_part=========*/
     #aboutus_part{
@@ -256,6 +278,20 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
+    #banner_part .overlay{
+        padding: 50px 0;
+    }
+    #banner_part .drim{
+        top: 0;
+        right: 0;
+    }
+    #banner_part .drim2{
+        top: 215px;
+        right: -5%;
+        letter-spacing: 15px;
+        font-size: 16px;
+       
+    }
     #aboutus_part{
         margin-top: 20px;
     }
@@ -323,6 +359,23 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
+    #banner_part .overlay .text{
+        margin-top: 20px;
+    }
+       #banner_part .overlay{
+        padding: 50px 0;
+    }
+    #banner_part .drim{
+        top: 0;
+        right: 5%;
+    }
+    #banner_part .drim2{
+        top: 215px;
+        right: 0;
+        letter-spacing: 15px;
+        font-size: 16px;
+       
+    }
     #aboutus_part .img{
         margin-top: 85px;
         height: 380px;
@@ -389,9 +442,27 @@
         width: 100%;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 991px) and (max-width: 1199px){
+    #banner_part .overlay .text{
+        margin-top: 40px;
+    }
+       #banner_part .overlay{
+        padding: 50px 0;
+    }
+
+    #banner_part .drim{
+        top: -10px;
+        
+    }
+    #banner_part .drim2{
+        top: 215px;
+        right: 0;
+        
+       
+    }
+
     #aboutus_part .img{
-        height: 256px;
+        height: 380px;
     }
     #aboutus_part .text p{
         width: 450px;
@@ -414,7 +485,7 @@
         width: 280px;
     }
     #portfollio_part ul li{
-        width: 180px;
+        width: 130px;
         font-size: 14px;
         padding: 10px 0;
     }

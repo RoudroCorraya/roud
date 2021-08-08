@@ -22,12 +22,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/burfiller.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 <!--================menu_bar start====================-->
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <section id="menu_bar">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
  <div class="container">
       <a class="navbar-brand" href="#">RtrexCo</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,13 +42,13 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Service</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Portfollio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Pricing</a>
@@ -56,10 +58,10 @@
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Testimonial</a>
+          <a class="dropdown-item" href="#">Footer</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Education</a>
         </div>
       </li>
     </ul>
@@ -70,6 +72,7 @@
   </div>
  </div>
 </nav>
+ </section>
 
        
  
@@ -80,17 +83,59 @@
 <!--===================banner_part start===========================-->
    <section id="banner_part">
        <div class="overlay">
+        
+    <div class="menu_come">
+           
+            <i class="fa fa-times close" aria-hidden="true"></i>
+            <ul>
+                <li>
+                    <a data-scroll href="#">Home</a>
+                </li>
+                <li>
+                    <a data-scroll href="#aboutus_part">About Me</a>
+                </li>
+                <li>
+                    <a data-scroll href="#skill_part">My Skill</a>
+                </li>
+                <li>
+                    <a data-scroll href="#service_part">My Service</a>
+                </li>
+                <li>
+                    <a data-scroll href="#portfollio_part">Portfollio</a>
+                </li>
+                <li>
+                    <a data-scroll href="#pricing_part">Pricing</a>
+                </li>
+                <li>
+                    <a data-scroll href="#testi_part">Testimonial</a>
+                </li>
+                <li>
+                    <a data-scroll href="#footer_part">Footer</a>
+                </li>
+            </ul>
+            
+        </div>
+<!--              <div class="menu_pop2"></div>-->
            <div class="container">
                <div class="row">
                    <div class="col-lg-12">
                        <div class="text">
                            <h1>Hellow</h1>
                            <h2>I am Roudro</h2>
-                           <p>I work as Front-end Developer. I will build webside for your business.</p>
+                          <p>
+                          I work as Front-end Developer. I will 
+                          <span class="type"></span>
+                          </p>
                        </div>
+        <!--   =====================================-->
+        
+ <div class="drim"></div>
+ <h2 class="drim2">Satisfaction</h2>
+<!--    =====================================-->
                    </div>
+
                </div>
-           </div>
+       </div>
        </div>
    </section>
    
@@ -363,9 +408,9 @@
             <div class="img">
                 <img src="images/port1.png" alt="port1.png">
                 <div class="overlay">
-                    <a href="#">
-                        <i class="fa fa-search-plus" aria-hidden="true"></i>
-                    </a>
+                   <a href="images/aboutme7.jpg" data-lightbox="roadtrip">
+                       <i class="fa fa-search-plus" aria-hidden="true"></i>
+                   </a>
                 </div>
             </div>
         </div>
@@ -373,9 +418,9 @@
             <div class="img">
                 <img src="images/port2.jpg" alt="port2.png">
                 <div class="overlay">
-                    <a href="#">
-                        <i class="fa fa-search-plus" aria-hidden="true"></i>
-                    </a>
+                    <a href="images/pwe.jpg" data-lightbox="roadtrip">
+                       <i class="fa fa-search-plus" aria-hidden="true"></i>
+                   </a>
                 </div>
             </div>
         </div>
@@ -383,9 +428,9 @@
             <div class="img">
                 <img src="images/port3.jpg" alt="port3.png">
                 <div class="overlay">
-                    <a href="#">
-                        <i class="fa fa-search-plus" aria-hidden="true"></i>
-                    </a>
+                    <a href="images/nicole-wolf-NdFREMS5P08-unsplash.jpg" data-lightbox="roadtrip">
+                       <i class="fa fa-search-plus" aria-hidden="true"></i>
+                   </a>
                 </div>
             </div>
         </div>
@@ -393,9 +438,9 @@
             <div class="img">
                 <img src="images/port4.jpg" alt="port4.png">
                 <div class="overlay">
-                    <a href="#">
-                        <i class="fa fa-search-plus" aria-hidden="true"></i>
-                    </a>
+                    <a href="images/jj.jpg" data-lightbox="roadtrip">
+                       <i class="fa fa-search-plus" aria-hidden="true"></i>
+                   </a>
                 </div>
             </div>
         </div>
@@ -403,9 +448,9 @@
             <div class="img">
                 <img src="images/port5.png" alt="port5.png">
                 <div class="overlay">
-                    <a href="#">
-                        <i class="fa fa-search-plus" aria-hidden="true"></i>
-                    </a>
+                    <a href="images/aboutme6.jpg" data-lightbox="roadtrip">
+                       <i class="fa fa-search-plus" aria-hidden="true"></i>
+                   </a>
                 </div>
             </div>
         </div>
@@ -413,9 +458,9 @@
             <div class="img">
                 <img src="images/port6.jpg" alt="port6.png">
                 <div class="overlay">
-                    <a href="#">
-                        <i class="fa fa-search-plus" aria-hidden="true"></i>
-                    </a>
+                    <a href="images/df.jpg" data-lightbox="roadtrip">
+                       <i class="fa fa-search-plus" aria-hidden="true"></i>
+                   </a>
                 </div>
             </div>
         </div>
@@ -423,9 +468,9 @@
             <div class="img">
                 <img src="images/port7.jpg" alt="port7.png">
                 <div class="overlay">
-                    <a href="#">
-                        <i class="fa fa-search-plus" aria-hidden="true"></i>
-                    </a>
+                   <a href="images/aboutus%20(2).jpg" data-lightbox="roadtrip">
+                       <i class="fa fa-search-plus" aria-hidden="true"></i>
+                   </a>
                 </div>
             </div>
         </div>
@@ -653,6 +698,7 @@
        </div>
    </div>
        </div>
+       <a class="back_top" href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
    <div class="last">
        <p>Designed By Roudro Corraya, 2021</p>
    </div>
@@ -671,8 +717,16 @@
 <script src="js/mixitup.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/popper.min.js"></script>
-<script src="js/script.js"></script>
 <script src="js/jquery.barfiller.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script src="js/polygonizr.js"></script>
+<script src="js/polygonizr.min.js"></script>
+<script src="js/createWaterBall-jquery.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/script.js"></script>
+
+
 
 <!--===================jequery-part end====================-->
 
