@@ -467,7 +467,7 @@
         width: 100%;
     }
 }
-@media (min-width: 991px) and (max-width: 1199px){
+@media (min-width: 992px) and (max-width: 1199px){
     .menu_come{
         width: 400px;
         height: 900px;
