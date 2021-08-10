@@ -436,7 +436,7 @@
         border-bottom: none;
     }
     #footer_part{
-        overflow: scroll hidden;
+        overflow: hidden;
     }
     #footer_part .footer_item .overlay .content.follow ul{
         margin-top: 5px;
