@@ -113,7 +113,7 @@ var scroll = new SmoothScroll('a[href*="#"]');
 //=============banner_polygonal js==============
 
 $('#banner_part').polygonizr();
-$('#pricing_part').polygonizr();
+
 
 //=============banner_round js=============
 $('.drim').createWaterBall({
