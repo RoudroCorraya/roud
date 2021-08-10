@@ -42,6 +42,9 @@
         width: 150px;
         margin: 5px 0;
     }
+    .menu_come i{
+        margin-right: 50px;
+    }
 /*=========aboutus_part=========*/
     #aboutus_part{
         margin-top: 40px;
@@ -383,9 +386,10 @@
     .menu_come{
         width: 400px;
         height: 800px;
-        margin-top: 100px;
-        
-        
+        margin-top: 100px;  
+    }
+    .menu_come i{
+        margin-right: 350px;
     }
     #banner_part .overlay .text{
         margin-top: 20px;
@@ -482,6 +486,9 @@
     .menu_come ul li a{
         width: 400px;
         margin: 25px 0;
+    }
+    .menu_come i{
+        margin-right: 350px;
     }
     #banner_part .overlay .text{
         margin-top: 40px;
