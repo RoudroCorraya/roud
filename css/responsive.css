@@ -309,6 +309,9 @@
     #aboutus_part{
         margin-top: 20px;
     }
+    #aboutus_part .img{
+        height: 296px;
+    }
     #skill_part{
         margin-top: 20px;
     }
