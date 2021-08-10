@@ -75,23 +75,7 @@ $('.testi_jala').slick({
 
 //============menu_popup===============
 
-//$(window).scroll(function(){
-//    var scroling = $(this).scrollTop();
-//    if(scroling > 200){
-//        $('.menu_pop2').addClass('menu_popup');
-//         
-//    }
-//    
-//    if(scroling > 200){
-//        $('.menu_pop2').click(function(){
-//            $('.menu_come').slideDown();
-//            
-//        });
-//        $('.close').click(function(){
-//            $('.menu_come').slideUp();
-//        });
-//    }
-//});
+
 
 $(window).scroll(function(){
     var scroling = $(this).scrollTop();
@@ -107,6 +91,12 @@ $(window).scroll(function(){
     if($('.menu_come').hasClass('out')){
         $('.menu_come').removeClass('in')
     }
+    if(scroling >200){
+        $('.back_top').slideDown();
+    }
+    else{
+            $('.back_top').slideUp();
+        }
     
     
 });
