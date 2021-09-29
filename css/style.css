@@ -43,37 +43,52 @@ body{
 
 
 /*============menu_bar start============*/
-.navbar-light .navbar-brand{
+#menu_bar{
+    border-bottom: 1px solid #000;
+}
+.navbar-brand{
     color: #000;
     font-size: 30px;
     font-family: 'Macondo Swash Caps', cursive;
     font-weight: 700;
 }
+
 .navbar{
-    background: none!important;
+/*
+    width:`1140px;
+    position: absolute;
+    z-index: 999;
+    left: 7%;
+*/
+/*   border-bottom: 1px solid #000;*/
+
 }
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-nav .nav-link:hover{
     color: #49cbcd;
     transition: .4s;
+    width: 100%;
+    background: #49cbcd;
+    height: 100%;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: #000;
+ .navbar-nav .nav-link{
+    color: #000!important;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     position: relative;
-    text-transform: uppercase;
+    text-transform: capitalize;
+     padding: 20px 0;
 }
-.navbar-light .navbar-nav .nav-link::after{
+.navbar-nav .nav-link::after{
     width: 0;
-    height: 2px;
+    height: 3px;
     background: #49cbcd;
     position: absolute;
     opacity: 0;
-    bottom: 0;
+    bottom: -10px;
     left: 10px;
     content: "";
 }
-.navbar-light .navbar-nav .nav-link:hover::after{
+.navbar-nav .nav-link:hover::after{
     opacity: 1;
     width: 80%;
     transition: .4s;
@@ -86,6 +101,10 @@ body{
     background: rgba(0, 255, 255, 0.58);
     transition: .4s;
 }
+#menu_bar ul{
+    text-align: right;
+}
+/*navbar-light*/
 
 /*============menu_bar end============*/
 
@@ -101,14 +120,17 @@ body{
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.28);
-    padding: 100px 0;
     position: relative;
+}
+#banner_part .overlay .text{
+    margin-bottom: 100px;
 }
 #banner_part .overlay .text h1{
     font-size: 60px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #000;
+    padding-top: 100px;
 }
 #banner_part .overlay .text h2{
     font-size: 40px;
@@ -123,7 +145,9 @@ body{
     width: 300px;
     color: #000;
     height: 100px;
+    
 }
+
 #banner_part .menu_pop2 a{
     display: none;
 }
@@ -225,6 +249,42 @@ body{
     font-weight: 400;
     letter-spacing: 25px;
 }
+#banner_part .vedio{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+/*    line-height: 200px;*/
+    border: 1px solid #000;
+    margin-top: 60px;
+   
+  
+}
+#banner_part .vedio:hover{
+    box-shadow: -21px 13px 26px -7px rgba(212,193,193,0.95);
+-webkit-box-shadow: -21px 13px 26px -7px rgba(212,193,193,0.95);
+-moz-box-shadow: -21px 13px 26px -7px rgba(212,193,193,0.95);
+    transition: .4s;
+     transform: scale(1.1);
+}
+#banner_part .vedio:hover i{
+    
+    color: aqua;
+    transition: .4s;
+}
+
+#banner_part .vedio i{
+    font-size: 50px;
+    width: 280px;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.42);
+    color: #fff;
+    border-radius: 50%;
+    line-height: 280px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
 /*============banner_part end=============*/
 
 /*=============aboutus_part start==========*/
@@ -301,7 +361,7 @@ body{
 #skill_part .skill_new .overlay{
      width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.67);
+    background: rgba(245, 245, 245, 0.56);
     
 }
 #skill_part .skill_items{
@@ -562,6 +622,13 @@ body{
 /*    rgba(180, 146, 146, 0.47)*/
     
 }
+#pricing_part .overlay .item h2 span{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
 
 #pricing_part .overlay .item h2{
     text-align: center;
@@ -723,6 +790,13 @@ body{
 #footer_part .footer_item .overlay .content{
     width: 100%;
 }
+#footer_part .footer_item .overlay .content a{
+    
+    color: #000;
+}
+#footer_part .footer_item .overlay .content a.footer_down{
+    display: block;
+}
 #footer_part .footer_item .overlay .content p{
     font-size: 16px;
     font-family: 'Macondo Swash Caps', cursive;
@@ -754,19 +828,32 @@ body{
 #footer_part .footer_item .overlay .content.follow ul li{
     width: 40px;
     height: 40px;
-    background: transparent);
+    background: transparent;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
     font-size: 20px;
     margin-right: 10px;
     border: 1px solid #f5f5f5;
+    overflow: hidden;
+    font-family: 'Macondo Swash Caps', cursive;
+    font-weight: 400;
 }
 #footer_part .footer_item .overlay .content.follow ul{
     margin-left: 5px;
 }
 #footer_part .footer_item .overlay .content.follow ul li a{
     color: #f5f5f5;
+}
+#footer_part .footer_item .overlay .content.follow ul li a.fiverr{
+    font-size: 12px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+#footer_part .footer_item .overlay .content.follow ul li .free{
+    padding-left: 5px;
 }
 #footer_part .footer_item .overlay .content.follow ul li:hover{
     background: #49cbcd;

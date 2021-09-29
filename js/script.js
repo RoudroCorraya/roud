@@ -112,7 +112,7 @@ var scroll = new SmoothScroll('a[href*="#"]');
 
 //=============banner_polygonal js==============
 
-$('#banner_part').polygonizr();
+//$('#banner_part').polygonizr();
 
 
 //=============banner_round js=============
@@ -125,7 +125,8 @@ $('.drim').createWaterBall({
       'resizeDuration': 200,
       'wrapAround': true
     })
-
+//===================vanu_box vedio============
+  $('.venobox').venobox(); 
 
 
 

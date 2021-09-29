@@ -1,14 +1,20 @@
 @media (min-width: 320px) and (max-width: 575px){
 /*=========navbar=========*/
     .navbar-light .navbar-toggler{
-        border-color: #fff;
+        border-color: #000;
+    }
+    .navbar-light .navbar-toggler i{
+        color: #000;
     }
     .navbar-light .navbar-nav .nav-link:hover::after{
         width: 20%;
     }
 /*========banner_part=======*/
     #banner_part .overlay{
-        padding: 200px 0;
+       padding-bottom: 100px;
+    }
+    #banner_part .overlay .text h1{
+        padding-top: 50px;
     }
     #banner_part .drim{
         left: 4%;
@@ -21,17 +27,34 @@
         font-size: 16px;
     }
     #banner_part .overlay .text{
-        margin-top: -170px;
+        padding-top: 0;
+        text-align: center;
+        width: 320px;
     }
     #banner_part .overlay .text h1{
         font-size: 40px;
+        width: 320px;
     } 
     #banner_part .overlay .text h2{
         font-size: 30px;
     }
     #banner_part .overlay .text p{
-        width: 245px;
+        
     }
+    #banner_part .vedio{
+        margin-top: -115px;
+        width: 120px;
+        height: 120px;
+        margin-left: 100px;
+    }
+    #banner_part .vedio i{
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+        margin-top: 4px;
+        font-size: 30px;
+    }
+    
     .menu_come{
         width: 150px;
         height: 550px;
@@ -285,6 +308,25 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
+    .navbar-light .navbar-toggler{
+        border-color: #000;
+    }
+    .navbar-light .navbar-toggler i{
+        color: #000;
+    }
+    #banner_part .vedio{
+        margin-top: -315px;
+        width: 160px;
+        height: 160px;
+        margin-left: 330px;
+    }
+    #banner_part .vedio i{
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        margin-top: 4px;
+        font-size: 30px;
+    }
     .menu_come ul li a{
         width: 300px;
         margin: 15px 0;
@@ -296,7 +338,7 @@
         
     }
     #banner_part .overlay{
-        padding: 50px 0;
+        padding-top: 50px;
     }
     #banner_part .drim{
         top: 0;
@@ -379,6 +421,25 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
+    .navbar-light .navbar-toggler{
+        border-color: #000;
+    }
+    .navbar-light .navbar-toggler i{
+        color: #000;
+    }
+    #banner_part .vedio{
+        margin-top: -360px;
+        width: 220px;
+        height: 220px;
+        margin-left: 400px;
+    }
+    #banner_part .vedio i{
+        width: 210px;
+        height: 210px;
+        line-height: 220px;
+        margin-top: 4px;
+        font-size: 40px;
+    }
     .menu_come ul li a{
         width: 400px;
         margin: 15px 0;
@@ -395,7 +456,7 @@
         margin-top: 20px;
     }
        #banner_part .overlay{
-        padding: 50px 0;
+        padding-top: 50px;
     }
     #banner_part .drim{
         top: 0;
@@ -530,6 +591,12 @@
     #service_part .item p{
         font-size: 14px;
         width: 280px;
+    }
+    #portfollio_part .item_port{
+        margin-left: 130px;
+    }
+    #portfollio_part ul{
+        margin-left: 130px;
     }
     #portfollio_part ul li{
         width: 130px;
